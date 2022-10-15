@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,7 @@
   }
   
   :root {
-    font-family: 'Kanit', monospace;
+    font-family: 'DotGothic16', sans-serif;
   }
   
   img {
@@ -15,5 +15,7 @@
   }
 
   h1 {
-    font-family: fKanit;
+    font-family: 'DotGothic16', sans-serif;
+    color: red;
+    text-decoration: solid;
   }
