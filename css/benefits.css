@@ -2,11 +2,25 @@
 .first__main-item,
 .second__main-item,
 .third__main-item {
-    display: flex;
+    display: inline-flexbox;
     padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+
+}
+
+@media(min-width: 500px) {
+    .first__main-item,
+    .second__main-item,
+    .third__main-item {
+        display: flex;
+        margin: 10px 10px 10px 10px;
+    }
 }
 
 .main__item-icon-img { 
     max-width: 75px;
-    margin: 0px 20px 0px 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 10px 10px 10px;
  }
