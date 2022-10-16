@@ -43,3 +43,7 @@ header {
     font-weight: bold;
     color: var(--title-color);
 }
+
+@media (min-width: 500px) {
+    
+}

@@ -1,5 +1,20 @@
 .product__card-item {
     border: solid 2px var(--border-product-color);
+    border-radius: 13px;
     margin: 5px;
     padding: 5px;
+}
+
+.product__card-subtitle-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.product__card-subtitle {
+    background-color: var(--product-subtitle-color);
+    border-radius: 13px;
+    margin: 0.2rem;
+    padding: 0.2rem;
 }

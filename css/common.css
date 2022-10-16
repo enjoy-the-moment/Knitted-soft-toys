@@ -14,6 +14,7 @@
     --alternative-link-color: #FFFDF1;
     --title-color: #221f1d;
     --border-product-color: rgb(243, 99, 32);
+    --product-subtitle-color: #f76c51;
   }
 
   @media (min-width: 500px) {
