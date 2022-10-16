@@ -12,6 +12,7 @@
     --header-main-color: #FFDFB9;
     --link-color: #1C1A18;
     --alternative-link-color: #FFFDF1;
+    --title-color: #221f1d;
   }
 
   @media (min-width: 500px) {

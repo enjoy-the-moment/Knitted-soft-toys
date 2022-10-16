@@ -36,3 +36,10 @@ header {
     text-decoration: underline;
     color: #443C35;
 }
+
+.header__main-title {
+    font-size: 1rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--title-color);
+}
