@@ -17,6 +17,7 @@
     --product-subtitle-bg-color: #f76c51;
     --subtitle-text-color: #181615;
     --product-text-color: #1C1A18;
+    --price-color: #37910A;
   }
 
   @media (min-width: 500px) {
