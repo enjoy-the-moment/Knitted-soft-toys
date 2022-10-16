@@ -34,3 +34,7 @@
     text-align: center;
     color: var(--price-color);
 }
+
+@media (min-width: 500px) {
+    
+}

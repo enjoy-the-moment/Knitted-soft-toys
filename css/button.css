@@ -20,3 +20,25 @@
     background-color: var(--logo-color);
     color: var(--alternative-link-color);
 }
+
+.product__button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1px;
+}
+
+.product__button-link {
+    border: 2px solid var(--logo-color);
+    border-radius: 13px;
+    text-decoration: none;
+    color: var(--link-color);
+    padding: 0.2rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.product__button-link:hover {
+    background-color: var(--logo-color);
+    color: var(--alternative-link-color);
+}
