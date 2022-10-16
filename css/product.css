@@ -36,5 +36,11 @@
 }
 
 @media (min-width: 500px) {
-    
+    .product__card {
+        display: flex;
+    }
+
+    .product__card-subtitle {
+        text-align: center;
+    }
 }
