@@ -13,8 +13,17 @@
 }
 
 .product__card-subtitle {
-    background-color: var(--product-subtitle-color);
+    background-color: var(--product-subtitle-bg-color);
     border-radius: 13px;
     margin: 0.2rem;
     padding: 0.2rem;
+    color: var(--subtitle-text-color);
+}
+
+.product__card-description {
+    text-transform: uppercase;
+    margin: 0.2rem;
+    padding: 0.2rem;
+    text-align: center;
+    color: var(--product-text-color);
 }
