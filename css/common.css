@@ -8,4 +8,7 @@
   
   :root {
     font-family: 'Silkscreen', cursive;
+    --logo-color: #F05A3B;
+    --header-main-color: #FFDFB9;
+    --link-color: #1C1A18;
   }
