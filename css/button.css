@@ -1,12 +1,12 @@
-.header__buy-button {
+/* .header__buy-button {
     background-color: var(--header-main-color);
     color: var(--link-color);
     border: 2px solid var(--logo-color);
     border-radius: 13px;
     text-decoration: none;
-    max-width: 100px;
+    width: 100px;
     text-align: center;
-    display: flexbox;
+    display: inline-block;
     align-items: center;
 }
 
@@ -17,4 +17,27 @@
 .button {
     text-decoration: none;
     color: var(--link-color);
+} */
+
+.header__buy-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--header-main-color);
+    padding: 1px;
+}
+
+.header__buy-button-link {
+    border: 2px solid var(--logo-color);
+    border-radius: 13px;
+    text-decoration: none;
+    color: var(--link-color);
+    padding: 0.2rem;
+    text-align: center;
+    margin: 0.5rem;
+}
+
+.header__buy-button-link:hover {
+    background-color: #db6934;
+    color: var(--alternative-link-color);
 }

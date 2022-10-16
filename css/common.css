@@ -11,6 +11,7 @@
     --logo-color: #F05A3B;
     --header-main-color: #FFDFB9;
     --link-color: #1C1A18;
+    --alternative-link-color: #FFFDF1;
   }
 
   @media (min-width: 500px) {
