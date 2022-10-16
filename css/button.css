@@ -1,0 +1,20 @@
+.header__buy-button {
+    background-color: var(--header-main-color);
+    color: var(--link-color);
+    border: 2px solid var(--logo-color);
+    border-radius: 13px;
+    text-decoration: none;
+    max-width: 100px;
+    text-align: center;
+    display: flexbox;
+    align-items: center;
+}
+
+.header__buy-button:hover {
+    background-color: #db6934;
+}
+
+.button {
+    text-decoration: none;
+    color: var(--link-color);
+}
