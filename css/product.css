@@ -1,0 +1,5 @@
+.product__card-item {
+    border: solid 2px var(--border-product-color);
+    margin: 5px;
+    padding: 5px;
+}
