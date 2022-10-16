@@ -12,3 +12,12 @@
     --header-main-color: #FFDFB9;
     --link-color: #1C1A18;
   }
+
+  @media (min-width: 500px) {
+    .main__item,
+    .product__card,
+    .header__main-sec {
+        max-width: 900px;
+        margin: auto;
+    }
+  }
